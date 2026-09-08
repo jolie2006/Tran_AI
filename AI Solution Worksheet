@@ -1,0 +1,132 @@
+Part 1 — Understand the Business Problem — 10 Points
+Answer:
+What is the business problem?
+The business problem is data science job salaries. Organization is hiring for data science roles often struggle to determine the fair and competitive salaries. Compensation varies widely by work year, experience level, employment type, job title, salary, remote ratio, etc. Without reliable benchmarking data, HR teams and hiring managers may set salaries based on guesswork or outdated information rather than current market trends. This can cause organization to overpay for unecessarily or underpay compared to competitors, risking either wasted budget or loss of talent. 
+Why is this problem important to the organization?
+This problem is important to the organization because it help organization to attract and keep good data science talent. If pay is too low, employees may leave for better offers, and organization struggles to fill important role. If pay is too high, it wastes budget and reduce profit, especially when hiring more people in the same role. This problem also affects trust within the organization, because employees expect fair pay compare to others doing similar role.
+Who is affected by this problem?
+- HR teams
+- Hiring Managers
+- Current Employees
+- Job Seekers
+Part 2 — Identify the Data — 10 Points
+Possible data:
+Work year
+Experience level
+Employment type
+Job title
+Salary
+Salary currency
+Salary in usd
+Employee residence
+Remote ratio
+Company location
+Company size
+Part 3 — Identify Features and Target — 10 Points
+1. Work year
+2. Experience level
+3. Employment type
+4. Job title 
+5. Salary in USD
+6. Employee residence
+7. Remote ratio 
+8. Company location
+9. Company size
+What would you want the model to determine?
+This is the target/output.
+I want the model to predict how much a full time entry level data scientist is paid at USD
+
+Part 4 — Select the AI/ML Approach — 10 Points
+
+
+Would you use supervised or unsupervised learning?
+I would use supervised learning because the organization will use historical data showing the salaries of data science jobs. I'm using 
+
+Would the problem involve classification or prediction?
+
+
+Part 5 — Data Quality and Business Impact — 10 Points
+
+Identify three possible data-quality problems.
+Examples:
+
+Missing information
+Incorrect values
+Duplicate records
+Outdated information
+Inconsistent formats
+Biased data
+What could happen if the data is poor?
+Write 4-6 sentences.
+
+Consider:
+
+Poor data → Poor model → Poor business decision
+
+Part 6 — Complete AI Solution Summary
+
+Complete this final section:
+
+Business Problem
+
+Data Needed
+
+AI/ML Approach
+
+Type of Learning
+
+Model Output
+
+Business Benefit
+
+Potential Risk
+
+Assignment Example
+
+Here is an example
+
+Business Problem
+
+A telecommunications company wants to identify customers who are likely to cancel their subscriptions.
+
+Data Needed
+
+The company could use:
+
+Customer tenure
+Monthly bill
+Number of complaints
+Internet usage
+Contract type
+Number of support calls
+Learning Type
+
+Supervised learning
+
+Why?
+
+Because the company has historical data showing which customers previously cancelled.
+
+Classification or Prediction?
+
+Classification
+
+The model could classify customers as:
+
+Likely to Churn / Not Likely to Churn
+
+Data Quality Problems
+
+The company might have:
+
+Missing customer information
+Incorrect billing information
+Duplicate customer records
+Business Benefit
+
+The company could identify high-risk customers and offer them discounts or improved services before they leave.
+
+Potential Risk
+
+The model could incorrectly identify customers as high-risk, resulting in unnecessary discounts or marketing expenses.
+
