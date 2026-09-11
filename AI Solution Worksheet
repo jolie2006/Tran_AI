@@ -40,93 +40,14 @@ Part 4 — Select the AI/ML Approach — 10 Points
 
 
 Would you use supervised or unsupervised learning?
-I would use supervised learning because the organization will use historical data showing the salaries of data science jobs. I'm using 
+I would use supervised learning because the organization will use historical data showing the salaries of data science jobs. I'm using supervised learning because it is the historical data and it already have correct answer.
 
 Would the problem involve classification or prediction?
-
+The problem involve prediction because it using to predict the salary of data science's jobs.
 
 Part 5 — Data Quality and Business Impact — 10 Points
-
-Identify three possible data-quality problems.
-Examples:
-
-Missing information
-Incorrect values
-Duplicate records
-Outdated information
-Inconsistent formats
-Biased data
-What could happen if the data is poor?
-Write 4-6 sentences.
-
-Consider:
-
-Poor data → Poor model → Poor business decision
-
+- Missing information: Some records may have blank or null values for fields like remote ratio or company size
+- Inconsistent formats: Job titles, experience levels, or company location might be entered differently accross records
+- Outdated information: Salary data from earlier work years may not reflect
 Part 6 — Complete AI Solution Summary
-
-Complete this final section:
-
-Business Problem
-
-Data Needed
-
-AI/ML Approach
-
-Type of Learning
-
-Model Output
-
-Business Benefit
-
-Potential Risk
-
-Assignment Example
-
-Here is an example
-
-Business Problem
-
-A telecommunications company wants to identify customers who are likely to cancel their subscriptions.
-
-Data Needed
-
-The company could use:
-
-Customer tenure
-Monthly bill
-Number of complaints
-Internet usage
-Contract type
-Number of support calls
-Learning Type
-
-Supervised learning
-
-Why?
-
-Because the company has historical data showing which customers previously cancelled.
-
-Classification or Prediction?
-
-Classification
-
-The model could classify customers as:
-
-Likely to Churn / Not Likely to Churn
-
-Data Quality Problems
-
-The company might have:
-
-Missing customer information
-Incorrect billing information
-Duplicate customer records
-Business Benefit
-
-The company could identify high-risk customers and offer them discounts or improved services before they leave.
-
-Potential Risk
-
-The model could incorrectly identify customers as high-risk, resulting in unnecessary discounts or marketing expenses.
 
