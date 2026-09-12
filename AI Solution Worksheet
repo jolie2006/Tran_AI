@@ -35,19 +35,40 @@ Part 3 — Identify Features and Target — 10 Points
 What would you want the model to determine?
 This is the target/output.
 I want the model to predict how much a full time entry level data scientist is paid at USD
-
 Part 4 — Select the AI/ML Approach — 10 Points
-
-
 Would you use supervised or unsupervised learning?
 I would use supervised learning because the organization will use historical data showing the salaries of data science jobs. I'm using supervised learning because it is the historical data and it already have correct answer.
-
 Would the problem involve classification or prediction?
 The problem involve prediction because it using to predict the salary of data science's jobs.
-
 Part 5 — Data Quality and Business Impact — 10 Points
+1. Three possible data-quality problems
 - Missing information: Some records may have blank or null values for fields like remote ratio or company size
 - Inconsistent formats: Job titles, experience levels, or company location might be entered differently accross records
 - Outdated information: Salary data from earlier work years may not reflect
+2. What could happen if the data is poor?
+If the data is poor, the model will learn wrong or misleading patterns. This lowers the model's accuracy. Missing or consistent values can lead to biased prediction. Outdated salary data may cause the model to suggest pay that doesn't match today's market.
 Part 6 — Complete AI Solution Summary
-
+Business Problem
+Organizations hiring for data science roles often struggle to determine fair and competitive salaries.
+Data Needed
+The company could use:
+- Work year
+- Experience level
+- Employment type
+- Job title
+- Employee residence
+- Remote ratio
+- Company location
+- Company size
+AI/ML Approach
+A prediction model to estimate how much a full time, entry level data scientist is paid in USD.
+Type of Learning
+Supervised learning because the organization has historical data showing actual salaries paid for data science jobs, and this data already has the correct answers for the model to learn from.
+Model Output
+The model could predict salary as how much a full time, entry level data scientist is paid.
+Business Benefit
+This helps the organization attract and keep good data science talent by offering fair pay. It also helps avoid wasting budget on overpaying or losing candidates by underpaying.
+Potential Risk
+- Missing information: Some records may have blank or null values for fields like remote ratio or company size.
+- Inconsistent formats: Job titles, experience levels, or company location might be entered differently across records.
+- Outdated information: Salary data from earlier work years may not reflect current market trends, which could lead the model to suggest pay that doesn't match today's market.
