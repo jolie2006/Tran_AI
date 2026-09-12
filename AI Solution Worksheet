@@ -63,7 +63,7 @@ The company could use:
 AI/ML Approach
 A prediction model to estimate how much a full time, entry level data scientist is paid in USD.
 Type of Learning
-Supervised learning because the organization has historical data showing actual salaries paid for data science jobs, and this data already has the correct answers for the model to learn from.
+I select supervised learning because the organization has historical data showing actual salaries paid for data science jobs, and this data already has the correct answers for the model to learn from.
 Model Output
 The model could predict salary as how much a full time, entry level data scientist is paid.
 Business Benefit
