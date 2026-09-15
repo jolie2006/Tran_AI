@@ -1,0 +1,19 @@
+1. The features of this problem are:
+- Work year
+- Experience level
+- Employment type
+- Job title 
+- Salary in USD
+- Employee residence
+- Remote ratio 
+- Company location
+- Company size
+2. The label is salary_in_usd
+3. The model learn patterns from historical data
+4. Testing data should be kept separate because we need a data that never seen to get the honest estimate.
+5. The model predict $120k but actual salary is $80k could be a false positive.
+6. The model predict $60k but actual salary is $80k could be a false negative.
+7. The precision would be more important because it give company compare exactly salary with other companies. It avoid company lost the talent and their financial.
+8. Work year, and experience level is a type of poor-quality data could affect this model. Missing work year, or experience level could be make a mistake to estimate the salary.
+9. Too many rare categories could cause this model to overfit.
+10.Trust it if it performs well in unseen data and holds up consistently across different job titles, countries, and company sizes.
